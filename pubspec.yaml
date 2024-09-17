@@ -1,0 +1,43 @@
+name: number
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^0.22.0  # 确保使用最新版本
+  url_launcher: ^6.0.20  # 添加这一行
+  qr_code_scanner: ^1.0.1 # 添加这个依赖
+  provider: ^6.0.0 # 确保你添加这个行
+  http: ^0.13.4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/sss.jpg
+    - assets/images/avatar.jpg
+    - assets/images/1.jpg
+    - assets/images/2.jpg
+    - assets/images/3.jpg
+    - assets/images/4.jpg
+    - assets/images/5.jpg
+    - assets/images/6.jpg
+    - assets/images/7.jpg
+    - assets/images/8.jpg
+    - assets/images/9.jpg
+    - assets/images/10.jpg
+    - assets/images/11.jpg
+    - assets/images/mcmenu.jpg
+    - assets/images/S__73375854.jpg
+    
+
