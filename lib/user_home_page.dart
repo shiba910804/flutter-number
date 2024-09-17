@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'user_userdata.dart';
 import 'abiko.dart'; // 確保你已經導入了abiko.dart
 import 'mc.dart'; // 导入麦当劳页面
-import 'user_ai.dart'; // Import the AI assistant page
+
 import 'package:provider/provider.dart'; // Import the Provider package
 import 'reservation_notifier.dart'; // 確保你已經導入了reservation_notifier.dart
 
@@ -68,17 +68,7 @@ List<Map<String, dynamic>> get filteredStores => stores.where((store) {
       appBar: AppBar(
         title: const Text('服務'),
         backgroundColor: Colors.cyan,
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.smart_toy),
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => const UserAIPage()),
-              );
-            },
-          ),
-        ],
+        
       ),
       body: Column(
         children: [
